@@ -1,5 +1,7 @@
 # papierkram-api-client
 
+[![Node.js CI](https://github.com/simonneutert/papierkram-api-client/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/simonneutert/papierkram-api-client/actions/workflows/node.js.yml)
+
 Der erste ~~illegale~~ nicht offizielle Papierkram-Client für die Papierkram-API für NodeJS.
 
 🚧 🛠️ Dieses Projekt befindet sich noch in der Entwicklung und ist eher noch nicht für die Verwendung geeignet. 🛠️ 🚧  
