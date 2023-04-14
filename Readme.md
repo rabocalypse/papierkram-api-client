@@ -4,6 +4,8 @@
 
 Der erste ~~illegale~~ nicht offizielle Papierkram-Client für die Papierkram-API für NodeJS.
 
+<img src="pac_logo_js.svg" alt="Gleiches Logo wie Ruby Version, nur Frosch hat Knoten in der Zunge, der wie ein j und ein s aussieht. Das ist lustig, weil zufällig die Software in JavScript geschrieben ist :D" width="300">
+
 🚧 🛠️ Dieses Projekt befindet sich noch in der Entwicklung und ist eher noch nicht für die Verwendung geeignet. 🛠️ 🚧  
 Aber du kannst es gerne ausprobieren und mir Feedback geben.
 
