@@ -13,6 +13,23 @@ Ich bin eigentlich ein Ruby-Entwickler und habe mich entschieden, diesen Client 
 
 Siehe [Papierkram API Client für Ruby](https://github.com/simonneutert/papierkram_api_client).
 
+## Unterstützte Endpunkte
+
+Aktuell unterstützte Endpunkte / Objekte:
+
+- [x] Banking::BankConnection
+- [ ] Banking::BankTransaction
+- [ ] Contact::Company (Unternehmen)
+- [ ] Contact::Company (Kontaktpersonen)
+- [x] Expense::Voucher (Ausgabe Belege)
+- [x] Income::Estimate (Angebote)
+- [x] Income::Invoice (Rechnungen)
+- [ ] Income::Proposition (Waren / Dienstleistungen)
+- [ ] Info
+- [ ] Project (Projekte)
+- [ ] Tracker::Task (Aufgaben)
+- [ ] Tracker::TimeEntry (Zeiterfassung)
+
 ## Installation
 
 ```bash
@@ -102,3 +119,15 @@ client.v1.incomeInvoice.all().then((invoices, err) => {
 //   ]
 // }
 ```
+
+## Configuration
+
+Es könnnen Environment-Variables gesetzt werden, um die Konfiguration zu übernehmen.
+
+Schau dazu mal in die [.env.example](.env.example) Datei.
+
+## Tests
+
+1. stell sicher, dass die Environment-Variable `PAPIERKRAM_SUBDOMAIN` gesetzt ist
+2. stell sicher, dass die Environment-Variable `PAPIERKRAM_API_KEY` gesetzt ist
+3. `$ npm test`
