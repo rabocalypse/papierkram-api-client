@@ -5,6 +5,10 @@ Der erste ~~illegale~~ nicht offizielle Papierkram-Client für die Papierkram-AP
 🚧 🛠️ Dieses Projekt befindet sich noch in der Entwicklung und ist eher noch nicht für die Verwendung geeignet. 🛠️ 🚧  
 Aber du kannst es gerne ausprobieren und mir Feedback geben.
 
+## NodeJS Version
+
+Dieser Client ist für NodeJS 18+ geschrieben. Denn `fetch` wird verwendet, um die API-Requests zu machen. 🥳
+
 ## Hinweis WIP
 
 🚨 In Kürze wird es eine neue Version geben, mit mehr tests, allen Endpunkten und einer ausführlichen Dokumentation. 🤞
